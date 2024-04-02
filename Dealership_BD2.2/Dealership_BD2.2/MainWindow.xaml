@@ -27,8 +27,8 @@
                 <DataGridTextColumn Binding="{Binding Customers.CustomerMiddleName}" Header="Отчество"/>
                 <DataGridTextColumn Binding="{Binding Customers.PhoneNumber}" Header="Номер телефона"/>
                 <DataGridTextColumn Binding="{Binding Customers.Email}" Header="Почта"/>
-                <DataGridTextColumn Binding="{Binding Vehicles.Models.ModelName}" Header="Модель авто"/>
-                <DataGridTextColumn Binding="{Binding Vehicles.Brands.BrandName}" Header="Бренд авто"/>
+                <DataGridTextColumn Binding="{Binding Vehicles.Models.ModelName}" Header="Модель авто"/> <!--ОДНО СЛОВО КОТОРОЕ Я НЕ МОГ НАПИСАТЬ ДО 1 ЧАСУ НОЧИ-->
+                <DataGridTextColumn Binding="{Binding Vehicles.Brands.BrandName}" Header="Бренд авто"/> <!--ОДНО СЛОВО КОТОРОЕ Я НЕ МОГ НАПИСАТЬ ДО 1 ЧАСУ НОЧИ-->
                 <DataGridTextColumn Binding="{Binding Vehicles.Years}" Header="Год"/>
                 <DataGridTextColumn Binding="{Binding Vehicles.Price}" Header="Цена"/>
                 <DataGridTextColumn Binding="{Binding OrderDate}" Header="Дата"/>
