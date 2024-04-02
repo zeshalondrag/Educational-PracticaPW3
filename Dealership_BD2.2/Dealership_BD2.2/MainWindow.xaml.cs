@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -20,7 +20,7 @@ namespace Dealership_BD2._2
     /// </summary>
     public partial class MainWindow : Window
     {
-        private DealershipEntities context = new DealershipEntities();
+        private DealershipEntities1 context = new DealershipEntities1();
         public MainWindow()
         {
             InitializeComponent();
